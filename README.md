@@ -8,9 +8,9 @@ This Project is a Simple ReactJS Project which displays the following
 2. Login Activities of the user
 
 ## Live Application URL
-<!-- 
-### https://aditya-sridhar.github.io/simple-reactjs-app
-This URL has the application deployed in -->
+
+### https://Akashp11111997.github.io/ActivityViewer/
+This URL has the application deployed in 
 
 ## Prerequisites
 
@@ -25,7 +25,7 @@ npm install -g create-react-app
 ```
 ## Live Application URL
 
-<!-- The Application is deployed in https://aditya-sridhar.github.io/simple-reactjs-app -->
+The Application is deployed in https://Akashp11111997.github.io/ActivityViewer/
 
  Click on the link to see the application 
 
