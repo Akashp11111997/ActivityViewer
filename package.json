@@ -2,7 +2,7 @@
   "name": "react-fullthrot-1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Akashp11111997.github.io/ActivityViewer",
+  "homepage": "https://Akashp11111997.github.io/ActivityViewer/",
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap": "^4.5.2",
