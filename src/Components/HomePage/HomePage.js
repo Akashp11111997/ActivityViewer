@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Member from '../Member/Member';
-import { CardColumns } from 'react-bootstrap';
 import './HomePage.css';
 import axios from 'axios';
+import { Container, Row } from 'react-bootstrap';
 
 class HomePage extends Component {
     constructor(props) {
@@ -33,20 +33,18 @@ class HomePage extends Component {
             return <div>Loading</div>
         } else {
             return (
-                <div>
-                    <center>
-                 <CardColumns className="Cards">
-                    {members.map(member => (
-                        <Member
-                            key={member.id}
-                            id={member.id}
-                            realname={member.real_name}
-                            timezone={member.tz}
-                            activities={member.activity_periods} />
-                    ))}
-                 </CardColumns>
-                 </center>
-                </div>
+                <Container className="container">
+                    <Row xs={1} md={2}>
+                        {members.map(member => (
+                            <Member
+                                key={member.id}
+                                id={member.id}
+                                realname={member.real_name}
+                                timezone={member.tz}
+                                activities={member.activity_periods} />
+                        ))}
+                    </Row>
+                </Container>
             )
         }
     }
