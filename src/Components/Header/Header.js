@@ -4,11 +4,13 @@ import './Header.css';
 
 const header = () => {
     return (
-        <Navbar bg="dark" variant="dark">
-            <Navbar.Brand className="text-center">
-                Welcome to Full Throttle Labs!!
-            </Navbar.Brand>
-        </Navbar>
+        <div className="header">
+            <Navbar bg="light" variant="light">
+                <Navbar.Brand className="text-center">
+                    <h4>Welcome to Full Throttle Labs!!</h4>
+                </Navbar.Brand>
+            </Navbar>
+        </div>
     )
 }
 export default header;
